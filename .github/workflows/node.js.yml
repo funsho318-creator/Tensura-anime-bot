@@ -1,0 +1,231 @@
+# 🧠⚡ Tensura Anime Bot — Node.js Documentation
+
+This file explains how the Tensura Anime Bot is built using Node.js.
+
+---
+
+## 🚀 Runtime
+
+- Node.js 18+
+- WhatsApp Web API (Baileys)
+- Event-driven architecture
+
+---
+
+## ⚙️ Main Entry File
+
+```text
+index.js
+```
+
+This file:
+- Starts WhatsApp connection
+- Loads session
+- Handles messages
+- Routes commands to modules
+
+---
+
+## 🧠 Core Bot Logic
+
+The bot listens for messages using Baileys:
+
+```javascript
+sock.ev.on("messages.upsert", async ({ messages }) => {
+  const msg = messages[0];
+
+  if (!msg.message) return;
+
+  const text =
+    msg.message.conversation ||
+    msg.message.extendedTextMessage?.text ||
+    "";
+
+  console.log("Message received:", text);
+});
+```
+
+---
+
+## 🧩 Command System
+
+Commands are modular:
+
+```text
+commands/
+├── anime.js
+├── ai.js
+├── group.js
+├── fun.js
+├── economy.js
+```
+
+Each file exports a function:
+
+```javascript
+module.exports = async (sock, from, text) => {
+  if (text === "!ping") {
+    await sock.sendMessage(from, { text: "🏓 Pong!" });
+  }
+};
+```
+
+---
+
+## 🧠 AI System (Great Sage)
+
+AI is handled in:
+
+```text
+ai/greatSage.js
+```
+
+Example:
+
+```javascript
+async function askSage(prompt) {
+  return "🧠 Great Sage: " + prompt;
+}
+```
+
+Used in:
+
+```text
+!sage <question>
+```
+
+---
+
+## 💾 Memory System
+
+Stores user chat history:
+
+```text
+database/memory.json
+```
+
+Example structure:
+
+```json
+{
+  "user123": [
+    "hello",
+    "what is anime?",
+    "tell me a joke"
+  ]
+}
+```
+
+---
+
+## 📱 WhatsApp Connection
+
+Uses Baileys:
+
+```javascript
+const { useMultiFileAuthState } = require("@whiskeysockets/baileys");
+```
+
+Session folder:
+
+```text
+/session
+```
+
+✔ Saves login after first QR scan  
+✔ Auto reconnect supported  
+
+---
+
+## ⚡ Message Flow
+
+```text
+User Message
+   ↓
+index.js listener
+   ↓
+Command check (!prefix)
+   ↓
+Route to module (anime / ai / fun)
+   ↓
+Send WhatsApp response
+```
+
+---
+
+## 🛡️ System Protection
+
+Includes:
+
+- Anti-link filter
+- Anti-spam system
+- Flood control
+- Group moderation tools
+
+---
+
+## 🚀 Start Bot
+
+```bash
+npm install
+node index.js
+```
+
+---
+
+## 📦 Production Mode (Optional)
+
+```bash
+npm install -g pm2
+pm2 start index.js --name tensura-bot
+pm2 save
+```
+
+---
+
+## 🧠 Environment Variables
+
+Create `.env`:
+
+```env
+PREFIX=!
+OWNER_NUMBER=234XXXXXXXX
+OPENAI_API_KEY=your_key
+BOT_NAME=Tensura Anime Bot
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+tensura-anime-bot/
+├── ai/
+├── commands/
+├── system/
+├── database/
+├── session/
+├── index.js
+├── config.js
+├── package.json
+└── .env
+```
+
+---
+
+## ⚡ Summary
+
+✔ Modular Node.js bot  
+✔ WhatsApp automation via Baileys  
+✔ AI Great Sage system  
+✔ Anime + group + economy features  
+✔ Production-ready structure  
+
+---
+
+## 🧠 Final Status
+
+> Great Sage Analysis Complete  
+> System Stability: HIGH  
+> Deployment Ready: YES  
+> God Mode: ENABLED ⚡

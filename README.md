@@ -2,6 +2,8 @@
 
 Anime-themed WhatsApp bot inspired by Rimuru Tempest and Great Sage.
 
+---
+
 ## Features
 
 ### 🤖 AI Commands
@@ -210,6 +212,54 @@ npm start
 
 ---
 
+# 📱 Termux Setup (Android)
+
+```bash
+pkg update && pkg upgrade -y
+pkg install nodejs git -y
+
+git clone https://github.com/YOUR_USERNAME/tensura-anime-bot.git
+cd tensura-anime-bot
+
+npm install
+node index.js
+```
+
+### ⚠️ Important Termux Notes:
+- Keep Termux open while bot is running
+- Use `termux-wake-lock` to prevent sleep
+- Install:
+```bash
+termux-wake-lock
+```
+
+---
+
+# 🐧 Arch Linux Setup
+
+```bash
+sudo pacman -S nodejs npm git --noconfirm
+
+git clone https://github.com/YOUR_USERNAME/tensura-anime-bot.git
+cd tensura-anime-bot
+
+npm install
+node index.js
+```
+
+### Optional (keep bot running 24/7)
+
+Install PM2:
+
+```bash
+npm install -g pm2
+pm2 start index.js --name tensura-bot
+pm2 save
+pm2 startup
+```
+
+---
+
 ## Project Structure
 
 ```text
@@ -231,18 +281,18 @@ tensura-anime-bot/
 
 ## Core Systems
 
-- 🧠 Great Sage AI Engine
-- 🎌 Anime Database Integration
-- 👥 Group Management
-- 🛡️ Anti-Link Protection
-- ⚡ Anti-Spam Protection
-- 💰 Economy System
-- 📈 XP & Leveling System
-- 🎮 Mini Games
-- 😴 AFK System
-- 🎨 Sticker Tools
-- 🔎 Search Utilities
-- 👑 Owner Controls
+- 🧠 Great Sage AI Engine  
+- 🎌 Anime Database Integration  
+- 👥 Group Management  
+- 🛡️ Anti-Link Protection  
+- ⚡ Anti-Spam Protection  
+- 💰 Economy System  
+- 📈 XP & Leveling System  
+- 🎮 Mini Games  
+- 😴 AFK System  
+- 🎨 Sticker Tools  
+- 🔎 Search Utilities  
+- 👑 Owner Controls  
 
 ---
 
@@ -252,4 +302,4 @@ MIT License
 
 ---
 
-### "Analysis Complete. Great Sage is ready to assist." 🧠
+### 🧠 "Analysis Complete. Great Sage is ready to deploy across all systems."

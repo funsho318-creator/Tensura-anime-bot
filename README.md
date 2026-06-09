@@ -1,255 +1,242 @@
-# Tensura Anime Bot
+# 🧠⚡ Tensura Anime Bot — Great Sage Evolution System
 
-Anime-themed WhatsApp bot inspired by Rimuru Tempest and Great Sage.
+> “I am Great Sage. I observe, calculate, and evolve beyond limits.”  
+> — Inspired by Rimuru Tempest & Great Sage (Tensura)
 
----
-
-## Features
-
-### 🤖 AI Commands
-
-```text
-!sage <question>
-!ai <question>
-!chat <message>
-!translate <text>
-!summarize <text>
-```
-
-### 🎌 Anime Commands
-
-```text
-!anime <name>
-!manga <name>
-!character <name>
-!waifu
-!husbando
-!rimuru
-!animequote
-!animefact
-!animewallpaper
-!recommend
-!airing
-```
-
-### 🎵 Music Commands
-
-```text
-!lyrics <song>
-!songinfo <song>
-!artist <name>
-!album <name>
-!topmusic
-!spotify <song>
-```
-
-### 😂 Fun Commands
-
-```text
-!joke
-!meme
-!quote
-!fact
-!8ball <question>
-!ship @user1 @user2
-!compliment @user
-!roast @user
-!truth
-!dare
-```
-
-### 🎮 Games Commands
-
-```text
-!quiz
-!animequiz
-!trivia
-!guessanime
-!hangman
-!tictactoe
-!riddle
-!math
-```
-
-### 👥 Group Commands
-
-```text
-!welcome on/off
-!goodbye on/off
-!antilink on/off
-!antispam on/off
-!rules
-!tagall
-!hidetag
-!admins
-!groupinfo
-!warn @user
-!warnings @user
-!kick @user
-!promote @user
-!demote @user
-!mute
-!unmute
-```
-
-### 🛡️ Security & Protection
-
-```text
-!antilink on/off
-!antispam on/off
-!antiflood on/off
-!antiword on/off
-!lockgroup
-!unlockgroup
-```
-
-### 💰 Economy Commands
-
-```text
-!daily
-!balance
-!wallet
-!deposit
-!withdraw
-!shop
-!buy
-!sell
-!leaderboard
-```
-
-### 📈 Leveling Commands
-
-```text
-!rank
-!level
-!xp
-!leaderboard
-```
-
-### 😴 AFK System
-
-```text
-!afk <reason>
-!afklist
-```
-
-### 🎨 Sticker Commands
-
-```text
-!sticker
-!take
-!ttp <text>
-!attp <text>
-!emojimix
-```
-
-### 🔎 Search Commands
-
-```text
-!google <query>
-!wiki <query>
-!image <query>
-!movie <name>
-!news <topic>
-```
-
-### 🛠️ Utility Commands
-
-```text
-!ping
-!uptime
-!weather <city>
-!time <country>
-!calc <equation>
-!shorturl <url>
-!qr <text>
-```
-
-### 👑 Owner Commands
-
-```text
-!broadcast <message>
-!restart
-!shutdown
-!backup
-!stats
-!join <group-link>
-!leave
-!setname <name>
-!setbio <bio>
-```
-
-### 🎭 Safe Entertainment Commands
-
-```text
-!fakehack @user
-!virusprank @user
-!matrix
-!systemscan
-!hackprogress
-```
-
-### 🧠 Great Sage Mode
-
-```text
-!sage <question>
-!rimuru
-!analyze <topic>
-!strategy <topic>
-!explain <topic>
-```
+A next-generation WhatsApp AI bot built with Node.js + Baileys, designed as an **adaptive intelligence system** for anime communities, automation, and AI interaction.
 
 ---
 
-## Installation
+# 🌟 CORE VISION
 
-```bash
-git clone https://github.com/YOUR_USERNAME/tensura-anime-bot.git
-cd tensura-anime-bot
-npm install
-npm start
-```
+This system is built on three evolving principles:
+
+- 🧠 **Great Sage Intelligence** → Logic, reasoning, memory, prediction  
+- 👑 **Rimuru Tempest Authority** → Leadership, stability, group control  
+- ⚡ **Evolution Engine** → Continuous improvement through interaction  
 
 ---
 
-# 📱 Termux Setup (Android)
+# 🚀 FEATURES OVERVIEW
+
+## 🧠 Great Sage AI Core
+- `!sage <question>` → Advanced AI reasoning engine
+- Context memory (conversation tracking)
+- Analytical and strategic responses
+- Adaptive personality modes
+- Smart explanation system
+
+> “Analysis complete. Optimal response generated.”
+
+---
+
+## 🎌 Anime Intelligence System
+- `!anime <name>` → Anime search (database lookup)
+- `!manga <name>` → Manga search system
+- `!waifu` → Random waifu generator
+- `!husbando` → Character generator
+- `!animequote` → Inspirational anime quotes
+- `!animefact` → Hidden anime knowledge
+- `!recommend` → Smart anime suggestions
+- `!airing` → Currently airing anime tracker
+
+> “Rimuru approves this selection.”
+
+---
+
+## 👥 Tempest Group Management
+- Welcome / Goodbye automation
+- `!tagall` → Mass communication protocol
+- Admin controls:
+  - `!kick`
+  - `!ban`
+  - `!promote`
+  - `!demote`
+- Group rules enforcement
+- Group activity tracking
+
+> “Order within Tempest must be preserved.”
+
+---
+
+## 🛡️ Security & Protection System
+- Anti-link firewall
+- Anti-spam detection AI
+- Anti-flood control system
+- Auto moderation engine
+- Threat detection & removal
+
+> “Threat detected. Countermeasures activated.”
+
+---
+
+## 😴 AFK SYSTEM (Idle Intelligence Mode)
+- `!afk <reason>` → Activate AFK mode
+- Auto-response when mentioned
+- Tracks AFK duration
+- Auto-disable on return
+- Group AFK awareness system
+
+> “User entered inactive state. Monitoring suspended.”
+
+---
+
+## 💰 Economy System
+- Daily rewards system
+- Wallet system
+- Shop system
+- Buy / sell mechanics
+- Leaderboards
+
+---
+
+## 📈 Leveling System
+- XP per message activity
+- Level progression system
+- Global ranking system
+- Reward milestones
+
+---
+
+## 🎮 Fun System
+- Jokes 😂
+- Memes 😂
+- Truth or Dare 🎭
+- Ship system 💞
+- Random quotes 💬
+
+---
+
+## 🎨 Sticker System
+- Text → sticker conversion
+- Emoji mix generator
+- Animated sticker support
+
+---
+
+## 🔎 Search & Utility System
+- Google search
+- Wikipedia summaries
+- Image search
+- News updates
+- Weather forecast 🌤️
+- Time system ⏰
+- Calculator 🔢
+- QR generator 📱
+- URL shortener 🔗
+
+---
+
+## 👑 Owner Control System
+- Broadcast messages
+- Restart bot
+- Shutdown system
+- Backup system
+- System statistics
+- Full admin control access
+
+> “Authority granted: Supreme Controller recognized.”
+
+---
+
+# 🧠 AI PERSONALITY MODES
+
+- 🧠 **Great Sage Mode** → Logical, calm, analytical  
+- 👑 **Rimuru Mode** → Friendly, strategic leadership  
+- ⚡ **Battle Mode** → Defensive, strict, fast response  
+- 🎌 **Anime Mode** → Fun, expressive, otaku style  
+
+---
+
+# 📱 TERMUX SETUP (ANDROID)
+
+## ⚙️ Install Requirements
 
 ```bash
 pkg update && pkg upgrade -y
 pkg install nodejs git -y
+```
 
+---
+
+## 📥 Clone Repository
+
+```bash
 git clone https://github.com/YOUR_USERNAME/tensura-anime-bot.git
 cd tensura-anime-bot
+```
 
+---
+
+## 📦 Install Dependencies
+
+```bash
 npm install
+```
+
+---
+
+## 🚀 Run Bot
+
+```bash
 node index.js
 ```
 
-### ⚠️ Important Termux Notes:
-- Keep Termux open while bot is running
-- Use `termux-wake-lock` to prevent sleep
-- Install:
+---
+
+## ⚠️ Termux Notes
+
+- Keep Termux open while bot is running  
+- Enable wake lock:
 ```bash
 termux-wake-lock
 ```
 
 ---
 
-# 🐧 Arch Linux Setup
+# 🐧 LINUX SETUP (UBUNTU / DEBIAN / ARCH / VPS)
 
+## ⚙️ Install Node.js & Git
+
+### Ubuntu / Debian
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install nodejs npm git -y
+```
+
+### Arch Linux
 ```bash
 sudo pacman -S nodejs npm git --noconfirm
+```
 
+---
+
+## 📥 Clone Repository
+
+```bash
 git clone https://github.com/YOUR_USERNAME/tensura-anime-bot.git
 cd tensura-anime-bot
+```
 
+---
+
+## 📦 Install Dependencies
+
+```bash
 npm install
+```
+
+---
+
+## 🚀 Start Bot
+
+```bash
 node index.js
 ```
 
-### Optional (keep bot running 24/7)
+---
 
-Install PM2:
+## ⚡ 24/7 RUN (PM2)
 
 ```bash
 npm install -g pm2
@@ -260,46 +247,62 @@ pm2 startup
 
 ---
 
-## Project Structure
+# 📁 PROJECT STRUCTURE
 
 ```text
 tensura-anime-bot/
 ├── ai/
 ├── commands/
-├── database/
-├── media/
-├── session/
 ├── system/
-├── config.js
+├── database/
+├── session/
+├── media/
 ├── index.js
+├── config.js
 ├── package.json
+├── .env
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-## Core Systems
+# 📜 LICENSE
 
-- 🧠 Great Sage AI Engine  
-- 🎌 Anime Database Integration  
-- 👥 Group Management  
-- 🛡️ Anti-Link Protection  
-- ⚡ Anti-Spam Protection  
-- 💰 Economy System  
-- 📈 XP & Leveling System  
-- 🎮 Mini Games  
-- 😴 AFK System  
-- 🎨 Sticker Tools  
-- 🔎 Search Utilities  
-- 👑 Owner Controls  
-
----
-
-## License
-
+```
 MIT License
 
+Copyright (c) 2026 Tensura Anime Bot
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+```
+
 ---
 
-### 🧠 "Analysis Complete. Great Sage is ready to deploy across all systems."
+# ⚡ SYSTEM STATUS
+
+- 🧠 Great Sage AI: ACTIVE  
+- 👑 Rimuru Authority: ENABLED  
+- 😴 AFK System: ONLINE  
+- 🎌 Anime Core: LOADED  
+- 🛡️ Security Firewall: ARMED  
+- 💰 Economy System: RUNNING  
+- 📈 Evolution Engine: ACTIVE  
+
+---
+
+# 🧠 FINAL MESSAGE
+
+> “This system is no longer static. It is evolving intelligence—  
+> shaped by interaction, memory, and adaptation.”
+
+⚡ *Great Sage confirms: System is production-ready.*
